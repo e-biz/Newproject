@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-29T14:10:23Z" name="com.TestNGRunner.TestNgRunner" finished-at="2023-11-29T14:22:32Z" duration-ms="729148">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestNGRunner.TestNgRunner@70beb599]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-11-29T14:10:23Z" name="Command line test" finished-at="2023-11-29T14:22:32Z" duration-ms="729148">
+      <class name="com.TestNGRunner.TestNgRunner">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.TestNGRunner.TestNgRunner@70beb599]" started-at="2023-11-29T09:10:23Z" name="setUpClass" finished-at="2023-11-29T09:10:25Z" duration-ms="2268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.TestNGRunner.TestNgRunner@70beb599]" started-at="2023-11-29T09:10:25Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-11-29T09:22:27Z" duration-ms="721433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify all the statuses of History page of standalone application"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Title of your feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.TestNGRunner.TestNgRunner@70beb599]" started-at="2023-11-29T09:22:27Z" name="tearDownClass" finished-at="2023-11-29T09:22:32Z" duration-ms="5392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.TestNGRunner.TestNgRunner -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.TestNGRunner.TestNgRunner -->
+</testng-results>

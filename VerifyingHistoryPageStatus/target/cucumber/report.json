@@ -1,0 +1,144 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-11-21T12:39:28.939Z",
+        "before": [
+          {
+            "result": {
+              "duration": 399777200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.AppHooks.ApplicationHooks.launchInputScreen()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1148921400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.AppHooks.ApplicationHooks.SubmitTheeRequistiionForm()"
+            }
+          },
+          {
+            "result": {
+              "duration": 22488602600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.AppHooks.ApplicationHooks.waitBeforeSubmitisnotyetdone()"
+            }
+          },
+          {
+            "result": {
+              "duration": 14084700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.AppHooks.ApplicationHooks.ClosedUIScreen()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2557538300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.AppHooks.ApplicationHooks.launchBrowser()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "To verify all the statuses of History page of standalone application",
+        "description": "",
+        "id": "title-of-your-feature;to-verify-all-the-statuses-of-history-page-of-standalone-application",
+        "after": [
+          {
+            "result": {
+              "duration": 2001500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.AppHooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 350088100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.AppHooks.ApplicationHooks.quitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3185401400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open the Erequisition Application",
+            "match": {
+              "location": "StepDefinition.VerifyingAllStatusHistory.open_the_erequisition_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 45217632400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter the Credentials and login",
+            "match": {
+              "location": "StepDefinition.VerifyingAllStatusHistory.enter_the_credentials_and_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 18937699000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open the history page",
+            "match": {
+              "location": "StepDefinition.VerifyingAllStatusHistory.open_the_history_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 414003406800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "check all status of txo trx standalone and verify them",
+            "match": {
+              "location": "StepDefinition.VerifyingAllStatusHistory.check_all_status_of_txo_trx_standalone_and_verify_them()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@VerifyingAllStatusOfHistoryPageOfStandalone"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFile/StatusVerification.feature",
+    "tags": []
+  }
+]
